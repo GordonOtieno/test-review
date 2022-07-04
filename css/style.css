@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(169, 169, 169);
+  color: #fff;
+}
+.survey-section {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  margin-top: 5vh;
+  padding: 25px;
+}

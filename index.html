@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form - Collaborative Project</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+      <!-- Own Style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 offset-3 survey-section">
+          <h1 class="text-center" id="title">
+            Survery Form By Gordon-Muyiwa
+          </h1>
+          <p class="text-center" id="description">
+            This survey form is a collaborative project for microverse
+          </p>
+          <div class="form">
+            <form id="survey-form">
+              <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" placeholder="Enter Your Name" class="form-control" id="name" required>
+              </div>
+              <div class="form-group">
+                <label id="email-label" for="email">Email address</label>
+                <input type="email" class="form-control" placeholder="Enter Your Email" id="email" aria-describedby="emailHelp" required>
+              </div>
+              <div class="form-group">
+                <label id="number-label" for="email">Age</label>
+                <input type="number" class="form-control" placeholder="Enter Your Age" min="10" max="70" id="number" aria-describedby="emailHelp" required>
+              </div>
+              <div class="form-group">
+                <label for="dropdown">Marital Status</label>
+                <select class="form-control" id="dropdown" required>
+                  <option>Single</option>
+                  <option>Married</option>
+                  <option>Divorced</option>
+                </select>
+              </div>
+              <label id="number-label" for="email">Gender</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
+                <label class="form-check-label" for="male">
+                  Gender: Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                <label class="form-check-label" for="female">
+                  Gender: Female
+                </label>
+              </div>
+
+              <label id="number-label" for="email">Preferred Programming Language</label>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="javascript" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Javascript
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="php" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Php
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Python" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Python
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Description</label>
+                <textarea class="form-control" id="text-area" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                 <button id="submit" class="btn btn-primary">submit</button>
+              </div>
+
+
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+      integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
